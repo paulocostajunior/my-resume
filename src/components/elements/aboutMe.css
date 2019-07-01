@@ -1,0 +1,44 @@
+.about-me {            
+    height: 50%;
+    padding: 20px;
+    background: #2B2B2B;     
+    margin: 0; 
+    color: #fff;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.display-about-me {
+    display:flex;
+}
+
+.about-me .text img {
+    margin: 2%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.about-me .text {
+    width: 55%;
+}
+
+.about-me-text h1 {
+    display: flex;
+    justify-content: start;
+    font: 65px/1.1em 'opensans-bold', sans-serif;
+    letter-spacing: -2px;
+    margin: 0 auto 18px auto;
+}
+
+.about-me-text h3 {
+    display: flex;
+    justify-content: start;
+    font: 27px/1.9em 'librebaskerville-regular', serif;
+    margin: 0;
+} 
+
+.about-me p {
+    color: #7A7A7A;
+}

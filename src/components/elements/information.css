@@ -1,0 +1,51 @@
+.flex_container {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    color: #7A7A7A;
+}
+
+.flex_item_left {
+    margin-left: 25%;
+    width: 177px;
+}
+.flex_item_right {
+    flex: 1;
+}
+
+.job-description {
+    font-style:normal;
+    width: 370px;
+    word-break: break-word;
+}
+
+.details {
+    color: #7A7A7A;
+}
+.details h1 {
+    font: 65px/1.1em 'opensans-bold', sans-serif;
+    letter-spacing: -2px;
+    margin: 0 auto 18px auto;
+}
+
+.details h3 {
+    font: 27px/1.9em 'librebaskerville-regular', serif;
+    margin: 0;
+}
+
+.details p {
+    font: 16px/24px 'librebaskerville-italic', serif;
+    color: #6E7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+    font-style: italic;
+}
+
+.details .subtitle-spacing {
+    margin-top:-20px;
+}
+
+.underline {
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;
+}
