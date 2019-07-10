@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.css';
-
+import '../../../resumeData';
+import resumeData from '../../../resumeData';
 const Header = () => {
     return (
         <header>
@@ -17,13 +18,20 @@ const Header = () => {
             
                 <div className="banner-text">
                     <div className="main-text">
-                        <h3>Welcome to my portfolio page,</h3>
-                        <h1>I am Paulo Costa Jr.</h1>
-                        <h3>Fullstack Webdeveloper</h3>                
+                        <h3>Welcome to my resume page,</h3>
+                        <h1>I am {resumeData.name}</h1>
+                        <h3>{resumeData.role}</h3>                
                         <hr/>
                         <ul className="social">
-                            <li><a href="https://www.linkedin.com/in/paulo-costa-jr-048470144/" target="_blank"><i className="fa fa-linkedin"></i></a></li>
-                            <li><a href="https://github.com/PauloCostaJunior" target="_blank"><i className="fa fa-github"></i></a></li>
+                        { 
+                            resumeData.socialLinks.map(item => {
+                                return(
+                                    <li key={item.name}>
+                                        <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                                    </li>
+                                );
+                            })
+                        }
                         </ul>
                     </div>
                 </div>
