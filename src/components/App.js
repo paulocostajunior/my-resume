@@ -1,5 +1,6 @@
 import React from 'react';
-import Hello from './elements/header/header';
+import Header from './elements/header/header';
+import Home from './elements/home/home';
 import AboutMe from './elements/aboutMe/aboutMe';
 import Information from './elements/information/information';
 
@@ -9,7 +10,8 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Hello />
+                <Header />
+                <Home />
                 <AboutMe />
                 <Information />
             </div>

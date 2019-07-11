@@ -37,8 +37,8 @@ let resumeData = {
             "place" : "Udemy - Maximilian Schwarzmüller"
         },
         {
-            "name" : "React - The Complete Guide (incl Hooks, React Router, Redux)",
-            "place" : "Udemy - Maximilian Schwarzmüller"
+            "name" : "Web  Front-End Foundations",
+            "place" : "Udacity"
         },
         {
             "name" : "Adobe (Photoshop, Illustrator e InDesign)",
@@ -48,11 +48,11 @@ let resumeData = {
     "jobs" : [
         {
             "role" : "Junior Software Developer​, Centro Universitário Barão de Mauá",
-            "date" : "Ribeirão Preto - São Paulo (May/2018 – June/2019)",
-            "description" : `I worked as a Full Stack Web Developer, designing and developing user-friendly web applications for
-            students, teachers and also for almost every company's departments. Besides that, i also maintained
-            lots of web applications and implemented new functionalities when needed. I used PHP, HTML, CSS,
-            Javascript(jQuery) and SQL Server for almost every application.`
+            "date" : "Ribeirão Preto - São Paulo (May/2018 – Present)",
+            "description" : `I work as a Full Stack Web Developer, designing and developing user-friendly web applications for
+            students, teachers and also for almost every company's departments. Besides that, i also maintain
+            lots of web applications and implement new functionalities when needed. I mainly use Angular, PHP, HTML, CSS,
+            Javascript(jQuery) and SQL Server developing my pplications.`
         },
         {
             "role" : "Intern​,​ Centro Universitário Barão de Mauá",
