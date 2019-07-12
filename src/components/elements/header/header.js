@@ -10,8 +10,8 @@ const Header = () => {
             <Headroom>
                 <header>
                     <nav>
-                        <ul className="header-info sticky">
-                            <li>
+                        <ul className="flex-container center">
+                            <li className="flex-item">
                                 <Link 
                                     className="header"
                                     to="header"
@@ -22,7 +22,7 @@ const Header = () => {
                                     Home
                                 </Link>    
                             </li>
-                            <li>
+                            <li className="flex-item">
                                 <Link 
                                     className="header"
                                     to="about-me"
@@ -30,10 +30,10 @@ const Header = () => {
                                     smooth={true} 
                                     offset={0} 
                                     duration={1000}>
-                                    About Me
+                                    About
                                 </Link> 
                             </li>
-                            <li>
+                            <li className="flex-item">
                                 <Link 
                                     className="header"
                                     to="information"
@@ -41,10 +41,9 @@ const Header = () => {
                                     smooth={true} 
                                     offset={0} 
                                     duration={1000}>
-                                    Information
+                                    Info
                                 </Link> 
                             </li>
-                            {/* <li>Projects</li> */}
                         </ul>
                     </nav>
                 </header>

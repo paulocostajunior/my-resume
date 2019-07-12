@@ -15,33 +15,32 @@ const Home = () => {
                         <h1>{resumeData.name}</h1>
                         <h3>I'm a {resumeData.role}</h3>                
                         <hr/>
-                        <ul className="social">
-                        { 
-                            resumeData.socialLinks.map(item => {
-                                return(
-                                    <li key={item.name}>
-                                        <a href={item.url} target="_blank"><i className={item.className}></i></a>
-                                    </li>
-                                );
-                            })
-                        }
-                        </ul>
+                        <div className="social">
+                            { 
+                                resumeData.socialLinks.map((item, index) => {
+                                    return(
+                                            <div key={index} className="social-item">
+                                                <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                                            </div>
+                                    );
+                                })
+                            }
+                        </div>
                     </div>
                 </div>
 
-                <ul className="scrolldown social">
-                    <li>
+           
+                    <div className="scrolldown smoothscroll">
                         <Link 
                             to="about-me"
                             spy={true} 
                             smooth={true} 
                             offset={0} 
                             duration={1000}>
-                            <a className="smoothscroll" href="#about"><i className="fa fa-arrow-down"></i></a>
-                        </Link>
-                        
-                    </li>
-                </ul>
+                           <i className="fa fa-arrow-down"></i>
+                        </Link>                        
+                    </div>
+       
         
             </div>
             </div>

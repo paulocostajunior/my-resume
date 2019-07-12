@@ -24,6 +24,7 @@
 
 .banner-text { 
     color:#fff;
+    text-align: center;
 }
 
 .main-text {
@@ -32,8 +33,6 @@
 
 /*Text Inside Banner */
 .banner-text h1 {
-    display: flex;
-    justify-content: center;
     font: 65px/1.1em 'opensans-bold', sans-serif;
     letter-spacing: -2px;
     margin: 0 auto 18px auto;
@@ -41,8 +40,6 @@
 }
 
 .banner-text h3 {
-    display: flex;
-    justify-content: center;
     font: 27px/1.9em 'librebaskerville-regular', serif;
     margin: 0;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
@@ -56,16 +53,15 @@
 }
 
 .home .social {
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
     list-style-type: none;
-    color:#fff;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
 }
 
-.home .social li {
-    margin-right: 5%;
-    font-size: 30px;
+.social-item {
+    margin-right: 5px;
+    margin-left: 10px;
 }
 
 .home .social i {
@@ -75,8 +71,15 @@
 .scrolldown {
     position:absolute;
     bottom: 0;
-    left: 47%;
-    transform: translateX(-50%)
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+}
+
+.scrolldown:focus {     
+    background-color:#fff;    
 }
 
 a, a:visited {
@@ -86,5 +89,5 @@ a, a:visited {
 }
 
 a:hover, a:focus { 
-    color: black; 
+    color: #11ABB0; 
 }

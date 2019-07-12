@@ -16,12 +16,12 @@ const Information = () => {
 
                     <div className="details flex_item_right">
                         { 
-                            resumeData.education.map(item => {
+                            resumeData.education.map((item, index) => {
                             return (
-                                <>
+                                <div key={index}>
                                     <h2>{item.courseName}</h2>
                                     <p className="subtitle-spacing">{item.place}</p>
-                                </>
+                                </div>
                                 );
                             })
                         }
@@ -35,12 +35,12 @@ const Information = () => {
 
                     <div className="details flex_item_right">
                         {
-                            resumeData.courses.map(item => {
+                            resumeData.courses.map((item, index) => {
                             return (
-                                <>
+                                <div key={index}>
                                     <h2>{item.name}</h2>
                                     <p className="subtitle-spacing">{item.place}</p>
-                                </>
+                                </div>
                                 );
                             })
                         }
@@ -55,13 +55,13 @@ const Information = () => {
 
                     <div className="details flex_item_right">
                         { 
-                            resumeData.jobs.map(item => {
+                            resumeData.jobs.map((item, index) => {
                                 return(
-                                    <>
+                                    <div key={index}>
                                         <h2>{item.role}</h2>
                                         <p className="subtitle-spacing">{item.date}</p>
                                         <p className="job-description">{item.description}</p>
-                                    </>
+                                    </div>
                                 )
                             })
                         }
@@ -76,25 +76,25 @@ const Information = () => {
                     <div className="flex_item_right">
                     <h2>Coding</h2>
                         {
-                            resumeData.techSkills.map(item => {
+                            resumeData.techSkills.map((item, index) => {
                                 return(
-                                    <p>{item.coding}</p>
+                                    <p key={index}>{item.coding}</p>
                                 );
                             })
                         }
                     <h2>Tools</h2>
                         {
-                            resumeData.techSkills.map(item => {
+                            resumeData.techSkills.map((item, index) => {
                                 return(
-                                    <p>{item.tools}</p>
+                                    <p key={index}>{item.tools}</p>
                                 );
                             })
                         }
                     <h2>Languages</h2>
                         {
-                            resumeData.techSkills.map(item => {
+                            resumeData.techSkills.map((item, index) => {
                                 return(
-                                    <p>{item.languages}</p>
+                                    <p key={index}>{item.languages}</p>
                                 );
                             })
                         }

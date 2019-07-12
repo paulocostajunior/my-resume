@@ -9,9 +9,9 @@ const AboutMe = () => {
             <article>
                 <div className="about-me">
                     <div className="display-about-me text">
-                        <img src={require("../../../assets/my-photo.png")}/>
+                        <img src={require("../../../assets/my-photo.png")} alt="My Profile"/>
                         
-                        <div style={{marginLeft: "2vw;"}} className="about-me-text">
+                        <div style={{marginLeft:"2vw"}} className="about-me-text">
                             <h2>About Me</h2>
                             
                             <p>{resumeData.aboutMeDescription}

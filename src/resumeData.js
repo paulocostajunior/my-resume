@@ -10,10 +10,11 @@ let resumeData = {
           "className":"fa fa-linkedin"
         },
         {
-          "name":"github",
-          "url":"https://github.com/paulocostajunior",
-          "className":"fa fa-github"
+            "name":"github",
+            "url":"https://github.com/paulocostajunior",
+            "className":"fa fa-github"
         }
+       
     ],
     "aboutMeDescription" : "I'm a self taught Full Stack Web Developer, graduated in Analysis and Systems Development, currently studying React, React Native and Angular. I've been working with JQuery, PHP, HTML, CSS, SQL Server, MySQL for the past 3 years and recently with Angular too.",
     "education" : [
@@ -23,7 +24,7 @@ let resumeData = {
         },
         {
             "courseName" : "Architecture and Urbanism",
-            "place" : "Centro Universitário Barão de Mauá • Jan 2010 / December 2014"
+            "place" : "Centro Universitário Moura Lacerda • Jan 2010 / December 2014"
         },
 
     ],

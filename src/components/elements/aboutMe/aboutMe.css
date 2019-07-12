@@ -13,10 +13,9 @@
 }
 
 .about-me .text img {
-    margin-top: 10%;
-    margin-right: 7%;
+    margin-top: 5%;
+    margin-left: 3%;
     height: 190px;
-    width: 160px;
     border-radius: 15%;
 }
 
@@ -24,17 +23,15 @@
     width: 55%;
 }
 
-.about-me-text h1 {
-    display: flex;
-    justify-content: start;
+.about-me-text h1 {    
+    justify-content: flex-start;
     font: 65px/1.1em 'opensans-bold', sans-serif;
     letter-spacing: -2px;
     margin: 0 auto 18px auto;
 }
 
-.about-me-text h3 {
-    display: flex;
-    justify-content: start;
+.about-me-text h3 {    
+    justify-content: flex-start;
     font: 27px/1.9em 'librebaskerville-regular', serif;
     margin: 0;
 } 
