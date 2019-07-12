@@ -91,3 +91,7 @@ a, a:visited {
 a:hover, a:focus { 
     color: #11ABB0; 
 }
+
+.scrolldown:hover{
+    cursor: pointer;
+} 
