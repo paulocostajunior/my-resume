@@ -11,9 +11,9 @@ const Home = () => {
                 
                 <div className="banner-text">
                     <div className="main-text">
-                        <h3>Welcome to my resume page,</h3>
+                        <h3>Hello, my name is</h3>
                         <h1>{resumeData.name}</h1>
-                        <h3>{resumeData.role}</h3>                
+                        <h3>I'm a {resumeData.role}</h3>                
                         <hr/>
                         <ul className="social">
                         { 
