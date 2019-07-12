@@ -9,7 +9,7 @@ const AboutMe = () => {
             <article>
                 <div className="about-me">
                     <div className="display-about-me text">
-                        <img src="https://via.placeholder.com/300"/>
+                        <img src={require("../../../assets/my-photo.png")}/>
                         
                         <div style={{marginLeft: "2vw;"}} className="about-me-text">
                             <h2>About Me</h2>

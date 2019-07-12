@@ -14,10 +14,11 @@
 }
 
 .about-me .text img {
-    margin: 2%;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
+    margin-top: 10%;
+    margin-right: 7%;
+    height: 190px;
+    width: 160px;
+    border-radius: 15%;
 }
 
 .about-me .text {
