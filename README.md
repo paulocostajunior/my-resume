@@ -11,9 +11,9 @@ The second is the 'Home', where i introduce myself
 ![alt_About](https://github.com/paulocostajunior/my-resume/blob/master/src/assets/Home.png)
 
 
-the third one is the 'About', where i go into details describing more myself
+The third one is the 'About', where i go into details describing more myself
 ![alt_About](https://github.com/paulocostajunior/my-resume/blob/master/src/assets/About.png)
 
 
-and finally the fourth shows my Education, Courses, Experiences and tools which i named 'Info'
+And finally the fourth shows my Education, Courses, Experiences and tools which i named 'Info'
 ![alt_About](https://github.com/paulocostajunior/my-resume/blob/master/src/assets/Info.png)
