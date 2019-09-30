@@ -11,7 +11,7 @@ The second is the 'Home', where i introduce myself
 ![alt_Home](https://github.com/paulocostajunior/my-resume/blob/master/src/assets/Home.png)
 
 
-The third one is the 'About', where i go into details describing more myself
+The third one is the 'About', where i go into details describing more about myself
 ![alt_About](https://github.com/paulocostajunior/my-resume/blob/master/src/assets/About.png)
 
 
