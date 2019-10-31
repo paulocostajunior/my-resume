@@ -16,7 +16,7 @@ let resumeData = {
         }
        
     ],
-    "aboutMeDescription" : "I'm a self taught Full Stack Web Developer, graduated in Analysis and Systems Development, currently studying React, React Native and Angular. I've been working with JQuery, PHP, HTML, CSS, SQL Server, MySQL for the past 3 years and recently with Angular too.",
+    "aboutMeDescription" : "I'm a self taught Front End Web Developer, graduated in Analysis and Systems Development. My main coding tools are Angular, ASP.NET, Javascript(jQuery), PHP, HTML, CSS, SQL Server, MySQL.",
     "education" : [
         {
             "courseName" : "Analysis and Systems Development",
@@ -30,6 +30,14 @@ let resumeData = {
     ],
     "courses" : [
         {
+            "name" : "Angular & NodeJS - The MEAN Stack Guide",
+            "place" : "Udemy - Maximilian Schwarzmüller"
+        },
+        {
+            "name" : "Typescript: The Complete Developer's Guide",
+            "place" : "Udemy - Stephen Grider"
+        },
+        {
             "name" : "Modern React With Redux [2019]",
             "place" : "Udemy - Stephen Grider"
         },
@@ -37,20 +45,12 @@ let resumeData = {
             "name" : "React - The Complete Guide (incl Hooks, React Router, Redux)",
             "place" : "Udemy - Maximilian Schwarzmüller"
         },
-        {
-            "name" : "Web  Front-End Foundations",
-            "place" : "Udacity"
-        },
-        {
-            "name" : "Adobe (Photoshop, Illustrator e InDesign)",
-            "place" : "Immaginare, School of Creation and Design - Ribeirão Preto - São Paulo"
-        },
     ],
     "jobs" : [
         {
             "role" : "Junior Software Developer​, Centro Universitário Barão de Mauá",
             "date" : "Ribeirão Preto - São Paulo (May/2018 – Present)",
-            "description" : `I work as a Full Stack Web Developer, designing and developing user-friendly web applications for
+            "description" : `I'm a Front End Developer, currently working as a Full Stack Web Developer, designing and developing user-friendly web applications for
             students, teachers and also for almost every company's departments. Besides that, i also maintain
             lots of web applications and implement new functionalities when needed. I mainly use Angular, PHP, HTML, CSS,
             Javascript(jQuery) and SQL Server developing my pplications.`
